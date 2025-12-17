@@ -29,6 +29,16 @@ while (exibirMenu)
     Console.WriteLine("3 - Listar veículos");
     Console.WriteLine("4 - Encerrar");
 
+    //try 
+    //{
+    //    opcao = Console.ReadLine();
+    //}
+    //catch (Exception ex)
+    //{
+      //  Console.WriteLine("Ocorreu um erro: " + ex.Message);
+        //continue;
+    //}
+
     switch (Console.ReadLine())
     {
         case "1":
